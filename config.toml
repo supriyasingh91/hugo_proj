@@ -1,0 +1,44 @@
+baseURL = "https://supriyasingh91.github.io"
+languageCode = "en-us"
+title = "My Portfolio Website"
+theme = "hugo-lodi-theme"
+googleAnalytics = ""
+publishDir = "supriyasingh91.github.io"
+
+[params]
+    theme_color = "#574CDD"
+    description = "Portfolio of Alexis Collado, UX Designer"
+    description_photo = "portfolio.jpg"
+    favicon = "favicon.png"
+    logo = "logo.png"
+    email = "bandishankar@gmail.com"
+    #facebook = "lex.collado"
+    #twitter = "lexiscollado"
+    #dribbble = "alexiscollado"
+    linkedin = "https://linkedin.com/in/bandishankar/"
+    #medium = "ahvccollado"
+    github = "bandishankar"
+    #googlescholar = "https://scholar.google.com/citations?user=XXXXXXXXXXXXXXXXXXXXX=en"
+
+[params.nav]
+    enable = true
+
+[params.hero]
+    enable = true
+    avatar = "29077.jpg"
+    subtitle = "Hi! I'm Bandi, a software engineer from Boston,MA."
+    hero_right = ["**Currently working at Nuance Communication in Burlington,MA.**", "I founded [User Experience Society](https://www.facebook.com/UXSoc/), the first student UX organization in the Philippines. For two years, we've had 20+ events with 30+ speakers for over 300 members and 500+ attendees. We've expanded to [California](https://www.facebook.com/profile.php?id=245708449193012) this year.", "I do a bit of writing as well. [Here's an article with a total of 21,000+ views to InVision & Medium](http://blog.invisionapp.com/ux-internship-wisdom/) talking about 50 things I learned spending 3 years as a UX intern.", "I help cultivate the design community in Manila too. I'm the youngest core member of [UX Philippines](https://www.facebook.com/groups/uxphilippines/) and I moderated a panel with some cool people for the [UXPH 2017 Conference](https://www.uxphilippines.com).", "I'm finishing my Bachelor's degree in Management Information Systems at the Ateneo de Manila University, expecting to graduate in 2018."]
+    resume = "bandi_shankar_resume.pdf"
+
+[params.process]
+    enable = true
+    title = "My Process"
+    subtitle = "Full Process Design"
+
+[params.case_studies]
+    enable = false
+    title = "Case Studies"
+    subtitle = "Selected Works"
+
+[params.footer]
+    enable = true
